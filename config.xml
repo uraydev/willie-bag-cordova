@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.williebag"
+        version="1.0.0-beta"
+        xmlns="http://www.w3.org/ns/widgets"
+        xmlns:cdv="http://cordova.apache.org/ns/1.0"
+    >
+    <name>Willie Bag</name>
+    <description>
+        Boxing timer + Willie Bag trainer by Cus D'Amato.
+    </description>
+    <author email="nikonorovsv@gmail.com" href="https://nikonorovsv.com">
+      Sergey Nikonorov
+    </author>
+    <platform name="android">ss
+      <icon src="res/icons/mdpi.png" density="mdpi" />
+      <icon src="res/icons/hdpi.png" density="hdpi" />
+      <icon src="res/icons/xhdpi.png" density="xhdpi" />
+      <icon src="res/icons/xxhdpi.png" density="xxhdpi" />
+      <icon src="res/icons/xxxhdpi.png" density="xxxhdpi" />
+    </platform>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="Orientation" value="portrait" />
+    </platform>
+</widget>
