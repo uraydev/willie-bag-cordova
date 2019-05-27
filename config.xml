@@ -25,5 +25,6 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <preference name="Orientation" value="portrait" />
+        <preference name="StatusBarOverlaysWebView" value="true" />
     </platform>
 </widget>
